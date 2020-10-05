@@ -1,0 +1,964 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="images/kindlebathicon.png" type="image/icon type">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>kindle Copy</title>
+</head>
+
+<body>
+
+    <nav id="topNavBar" class="navbar navbar-expand navbar-light sticky-top bg-light">
+
+        <a id="logoImgHeader" class="navbar-brand" href="#">
+            <img src="/images/javascript pic.png" width="70" height="70" class="d-inline-block align-top" alt=""
+                loading="lazy">
+        </a>
+
+        <div style="transition:.3s;" class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a style="color: #3AC0C4; font-weight: 500;" class=" tu nav-link" href="#">Home <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li id="DDoption" style="font-weight: 500;" class="dropDown__onHover nav-item dropdown">
+                    <div class="dropdown">
+                        <a class="tu hover__BlueEffect nav-link" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Categories
+                        </a>
+                        <div id="DropDownBox" class="container p-4" aria-labelledby="dropdownMenuButton">
+                            <div class="row">
+
+                                <div class="col-3 ">
+                                    <div class="dropright m-2 show">
+                                        <a type="button" class="hover__BlueEffect SideDropTrigger dropdown-item"
+                                            data-toggle="" aria-haspopup="true" aria-expanded="true">
+                                            Dropright
+                                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-chevron-double-right" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+                                            </svg>
+                                        </a>
+                                        <div style="top: 10px; left: 120px;" class="SideDrop">
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropright m-2 show">
+                                        <a type="button" class="hover__BlueEffect SideDropTrigger dropdown-item"
+                                            data-toggle="" aria-haspopup="true" aria-expanded="true">
+                                            Another Dropright
+                                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-chevron-double-right" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+                                            </svg>
+                                        </a>
+                                        <div style="top: 10px; left: 130px;" class="SideDrop">
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropright m-2 show">
+                                        <a type="button" class="hover__BlueEffect SideDropTrigger dropdown-item"
+                                            data-toggle="" aria-haspopup="true" aria-expanded="true">
+                                            One More Drop Right
+                                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-chevron-double-right" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+                                            </svg>
+                                        </a>
+                                        <div style="top: 10px; left: 140px;" class="SideDrop">
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropright m-2 show">
+                                        <a type="button" class="hover__BlueEffect SideDropTrigger dropdown-item"
+                                            data-toggle="" aria-haspopup="true" aria-expanded="true">
+                                            Dropright
+                                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-chevron-double-right" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+                                            </svg>
+                                        </a>
+                                        <div style="top: 10px; left: 150px;" class="SideDrop">
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a> <a
+                                                class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                        </div>
+                                    </div>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                </div>
+                                <div class="col-3 ">
+                                    <div class="dropright m-2 show">
+                                        <a type="button" class="hover__BlueEffect SideDropTrigger dropdown-item"
+                                            data-toggle="" aria-haspopup="true" aria-expanded="true">
+                                            Dropright
+                                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-chevron-double-right" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+                                            </svg>
+                                        </a>
+                                        <div style="top: 10px; left: 120px;" class="SideDrop">
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropright m-2 show">
+                                        <a type="button" class="hover__BlueEffect SideDropTrigger dropdown-item"
+                                            data-toggle="" aria-haspopup="true" aria-expanded="true">
+                                            Another Dropright
+                                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-chevron-double-right" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+                                            </svg>
+                                        </a>
+                                        <div style="top: 10px; left: 130px;" class="SideDrop">
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropright m-2 show">
+                                        <a type="button" class="hover__BlueEffect SideDropTrigger dropdown-item"
+                                            data-toggle="" aria-haspopup="true" aria-expanded="true">
+                                            One More Drop Right
+                                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-chevron-double-right" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+                                            </svg>
+                                        </a>
+                                        <div style="top: 10px; left: 140px;" class="SideDrop">
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropright m-2 show">
+                                        <a type="button" class="hover__BlueEffect SideDropTrigger dropdown-item"
+                                            data-toggle="" aria-haspopup="true" aria-expanded="true">
+                                            Dropright
+                                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-chevron-double-right" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+                                            </svg>
+                                        </a>
+                                        <div style="top: 10px; left: 150px;" class="SideDrop">
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                        </div>
+                                    </div>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                </div>
+                                <div class="col-3 ">
+                                    <div class="dropright m-2 show">
+                                        <a type="button" class="hover__BlueEffect SideDropTrigger dropdown-item"
+                                            data-toggle="" aria-haspopup="true" aria-expanded="true">
+                                            Dropright
+                                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-chevron-double-right" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+                                            </svg>
+                                        </a>
+                                        <div style="top: 10px; left: 120px;" class="SideDrop">
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropright m-2 show">
+                                        <a type="button" class="hover__BlueEffect SideDropTrigger dropdown-item"
+                                            data-toggle="" aria-haspopup="true" aria-expanded="true">
+                                            Another Dropright
+                                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-chevron-double-right" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+                                            </svg>
+                                        </a>
+                                        <div style="top: 10px; left: 130px;" class="SideDrop">
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropright m-2 show">
+                                        <a type="button" class="hover__BlueEffect SideDropTrigger dropdown-item"
+                                            data-toggle="" aria-haspopup="true" aria-expanded="true">
+                                            One More Drop Right
+                                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-chevron-double-right" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+                                            </svg>
+                                        </a>
+                                        <div style="top: 10px; left: 140px;" class="SideDrop">
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropright m-2 show">
+                                        <a type="button" class="hover__BlueEffect SideDropTrigger dropdown-item"
+                                            data-toggle="" aria-haspopup="true" aria-expanded="true">
+                                            Dropright
+                                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-chevron-double-right" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+                                            </svg>
+                                        </a>
+                                        <div style="top: 10px; left: 150px;" class="SideDrop">
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                        </div>
+                                    </div>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                </div>
+                                <div class="col-3 ">
+                                    <div class="dropright m-2 show">
+                                        <a type="button" class="hover__BlueEffect SideDropTrigger dropdown-item"
+                                            data-toggle="" aria-haspopup="true" aria-expanded="true">
+                                            Dropright
+                                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-chevron-double-right" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+                                            </svg>
+                                        </a>
+                                        <div style="top: 10px; left: 120px;" class="SideDrop">
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropright m-2 show">
+                                        <a type="button" class="hover__BlueEffect SideDropTrigger dropdown-item"
+                                            data-toggle="" aria-haspopup="true" aria-expanded="true">
+                                            Another Dropright
+                                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-chevron-double-right" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+                                            </svg>
+                                        </a>
+                                        <div style="top: 10px; left: 130px;" class="SideDrop">
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropright m-2 show">
+                                        <a type="button" class="hover__BlueEffect SideDropTrigger dropdown-item"
+                                            data-toggle="" aria-haspopup="true" aria-expanded="true">
+                                            One More Drop Right
+                                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-chevron-double-right" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+                                            </svg>
+                                        </a>
+                                        <div style="top: 10px; left: 140px;" class="SideDrop">
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                        </div>
+                                    </div>
+                                    <div class="dropright m-2 show">
+                                        <a type="button" class="hover__BlueEffect SideDropTrigger dropdown-item"
+                                            data-toggle="" aria-haspopup="true" aria-expanded="true">
+                                            Dropright
+                                            <svg width="1em" height="1em" viewBox="0 0 16 16"
+                                                class="bi bi-chevron-double-right" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z" />
+                                            </svg>
+                                        </a>
+                                        <div style="top: 10px; left: 150px;" class="SideDrop">
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                            <a class="hover__BlueEffect dropdown-item" href="">Side Dropping</a>
+                                        </div>
+                                    </div>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                    <a class="hover__BlueEffect m-2 dropdown-item" href="">Normal Options</a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+                <li style="margin-left: 65px; font-weight: 500; " class="nav-item pl-5 ">
+                    <a class="hover__BlueEffect tu nav-link" href="">About Us <span class="sr-only">(current)</span></a>
+                </li>
+                <li style="font-weight: 500; " class="nav-item ">
+                    <a class="hover__BlueEffect tu nav-link" href="">Contact Us <span
+                            class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+        </div>
+        <div style="transition:.3s;" id="rightSideElements" class="d-flex align-items-center justify-content-center">
+            <div style="margin-right: 2rem;" id="contacting d-flex flex-row ">
+                <svg style="color: #FFC107;" width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-telephone"
+                    fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+                </svg>
+                <h6 class="ml-2 d-inline "> 987 654 3210</h6>
+            </div>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button type="button" class="btn btn-outline-warning rounded-lg">
+                    <svg width="1.3em" height="1.3em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z" />
+                        <path fill-rule="evenodd"
+                            d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z" />
+                    </svg>
+                </button>
+            </form>
+            <div id="Bag" class="hover__BlueEffect ml-2">
+                <svg width="2.3em" height="2.9em" viewBox="-5 -5 20 20" class="bi bi-handbag" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M8 1a2 2 0 0 0-2 2v2h4V3a2 2 0 0 0-2-2zm3 4V3a3 3 0 1 0-6 0v2H3.361a1.5 1.5 0 0 0-1.483 1.277L.85 13.13A2.5 2.5 0 0 0 3.322 16h9.356a2.5 2.5 0 0 0 2.472-2.87l-1.028-6.853A1.5 1.5 0 0 0 12.64 5H11zm-1 1v1.5a.5.5 0 0 0 1 0V6h1.639a.5.5 0 0 1 .494.426l1.028 6.851A1.5 1.5 0 0 1 12.678 15H3.322a1.5 1.5 0 0 1-1.483-1.723l1.028-6.851A.5.5 0 0 1 3.36 6H5v1.5a.5.5 0 0 0 1 0V6h4z" />
+                </svg>
+            </div>
+            <span class="badge badge-warning rounded-circle">0</span>
+            <div id="userAccount" class="hover__BlueEffect mr-5 ml-3">
+                <svg width="1.8em" height="1.8em" viewBox="0 0 16 16" class="bi bi-person" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M10 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0zM8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm6 5c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                </svg>
+            </div>
+        </div>
+    </nav>
+    <section>
+        <div id='imageDivision'>
+            <img src="images/top flex image.jpg" class="img-fluid" alt="">
+        </div>
+    </section>
+    <section style="margin-top: 20px; margin-bottom: 10px;" id="gridProductSection">
+        <div class="container">
+            <div class="card-deck" style='margin-top:10px;'>
+                <div style="border:none;" class="outer__box card col-sm ">
+                    <img src="images/javascript pic.png" class="inner__image card-img-top" alt="JavaScript">
+                    <div class="card-img-overlay content__onImg ">
+                        <p class="heading__onImg card-text ">content</p>
+                    </div>
+                </div>
+                <div style="border:none;" class="outer__box card col-sm ">
+                    <img src="images/javascript pic.png" class="inner__image card-img-top" alt="JavaScript">
+                    <div class="card-img-overlay content__onImg ">
+                        <p class="heading__onImg card-text ">content</p>
+                    </div>
+                </div>
+                <div style="border:none;" class="outer__box card col-sm ">
+                    <img src="images/javascript pic.png" class="inner__image card-img-top" alt="JavaScript">
+                    <div class="card-img-overlay content__onImg ">
+                        <p class="heading__onImg card-text ">content</p>
+                    </div>
+                </div>
+                <div style="border:none;" class="outer__box card col-sm ">
+                    <img src="images/javascript pic.png" class="inner__image card-img-top" alt="JavaScript">
+                    <div class="card-img-overlay content__onImg ">
+                        <p class="heading__onImg card-text ">content</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-deck" style='margin-top:10px;'>
+                <div style="border:none;" class="outer__box card col-sm ">
+                    <img src="images/javascript pic.png" class="inner__image card-img-top" alt="JavaScript">
+                    <div class="card-img-overlay content__onImg ">
+                        <p class="heading__onImg card-text ">content</p>
+                    </div>
+                </div>
+                <div style="border:none;" class="outer__box card col-sm ">
+                    <img src="images/javascript pic.png" class="inner__image card-img-top" alt="JavaScript">
+                    <div class="card-img-overlay content__onImg ">
+                        <p class="heading__onImg card-text ">content</p>
+                    </div>
+                </div>
+                <div style="border:none;" class="outer__box card col-sm ">
+                    <img src="images/javascript pic.png" class="inner__image card-img-top" alt="JavaScript">
+                    <div class="card-img-overlay content__onImg ">
+                        <p class="heading__onImg card-text ">content</p>
+                    </div>
+                </div>
+                <div style="border:none;" class="outer__box card col-sm ">
+                    <img src="images/javascript pic.png" class="inner__image card-img-top" alt="JavaScript">
+                    <div class="card-img-overlay content__onImg ">
+                        <p class="heading__onImg card-text ">content</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-deck" style='margin-top:10px;'>
+                <div style="border:none;" class="outer__box card col-sm ">
+                    <img src="images/javascript pic.png" class="inner__image card-img-top" alt="JavaScript">
+                    <div class="card-img-overlay content__onImg ">
+                        <p class="heading__onImg card-text ">content</p>
+                    </div>
+                </div>
+                <div style="border:none;" class="outer__box card col-sm ">
+                    <img src="images/javascript pic.png" class="inner__image card-img-top" alt="JavaScript">
+                    <div class="card-img-overlay content__onImg ">
+                        <p class="heading__onImg card-text ">content</p>
+                    </div>
+                </div>
+                <div style="border:none;" class="outer__box card col-sm ">
+                    <img src="images/javascript pic.png" class="inner__image card-img-top" alt="JavaScript">
+                    <div class="card-img-overlay content__onImg ">
+                        <p class="heading__onImg card-text ">content</p>
+                    </div>
+                </div>
+                <div style="border:none;" class="outer__box card col-sm ">
+                    <img src="images/javascript pic.png" class="inner__image card-img-top" alt="JavaScript">
+                    <div class="card-img-overlay content__onImg ">
+                        <p class="heading__onImg card-text ">content</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-deck" style='margin-top:10px;'>
+                <div style="border:none;" class="outer__box card col-sm ">
+                    <img src="images/javascript pic.png" class="inner__image card-img-top" alt="JavaScript">
+                    <div class="card-img-overlay content__onImg ">
+                        <p class="heading__onImg card-text ">content</p>
+                    </div>
+                </div>
+                <div style="border:none;" class="outer__box card col-sm ">
+                    <img src="images/javascript pic.png" class="inner__image card-img-top" alt="JavaScript">
+                    <div class="card-img-overlay content__onImg ">
+                        <p class="heading__onImg card-text ">content</p>
+                    </div>
+                </div>
+                <div style="border:none;" class="outer__box card col-sm ">
+                    <img src="images/javascript pic.png" class="inner__image card-img-top" alt="JavaScript">
+                    <div class="card-img-overlay content__onImg ">
+                        <p class="heading__onImg card-text ">content</p>
+                    </div>
+                </div>
+                <div style="border:none;" class="outer__box card col-sm ">
+                    <img src="images/javascript pic.png" class="inner__image card-img-top" alt="JavaScript">
+                    <div class="card-img-overlay content__onImg ">
+                        <p class="heading__onImg card-text ">content</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <div style="height: 50px; background-color: #F7F8FA;"
+        class=" mt-5 mb-3 account__openPromo d-flex justify-content-center align-items-center ">
+        <h5 class="d-inline">Create your online account with kindle bath accessories today</h5>
+        <button type="button" class="btn align-self-center ml-4 btn-outline-primary ">Register Now</button>
+    </div>
+    <section id="newItems">
+        <center>
+            <h2>New Arrivals</h2>
+        </center>
+        <div id="leftRightButton">
+            <div style="height: min-content; background-color: black; border-radius: 50%; box-shadow: 0 0 7px black;"
+                class="" href="#carouselExampleControls" role="button" data-slide="prev">
+                <svg style="color: #FFC732;" width="2.5em" height="2.5em" viewBox="0 0 16 16"
+                    class="bi bi-arrow-left-circle-fill " fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-4.5.5a.5.5 0 0 0 0-1H5.707l2.147-2.146a.5.5 0 1 0-.708-.708l-3 3a.5.5 0 0 0 0 .708l3 3a.5.5 0 0 0 .708-.708L5.707 8.5H11.5z" />
+                </svg>
+            </div>
+            <div style="background-color: black; border-radius: 50%; box-shadow: 0 0 7px black;"
+                class=" mb-3 mr-4 ml-3 " href="#carouselExampleControls" role="button" data-slide="next">
+                <svg style="color: #FFC732;" width="2.5em" height="2.5em" viewBox="0 0 16 16"
+                    class="bi bi-arrow-right-circle-fill " fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd"
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-11.5.5a.5.5 0 0 1 0-1h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5z" />
+                </svg>
+            </div>
+        </div>
+
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+
+                <div style="padding-top:12px !important;" class="carousel-item active p-5">
+
+                    <div class="row flex-nowrap overflow-auto">
+
+                        <div class="col-3">
+                            <div class="card card-block">
+                                <div class="card m-2">
+                                    <img src="images/html pic.png" class="card-img-top" alt="...">
+                                    <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                                        <h5 class="hover__BlueEffect card-title">Hypertext Markup Language</h5>
+                                        <p class="hover__BlueEffect card-text"> Page 0 Element 0</p>
+                                        <button type="button" class="btn btn-outline-danger">
+                                            <svg width="1.2em" height="1.2em" viewBox="0 0 16 16"
+                                                class="bi bi-bag-plus mr-1" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                                            </svg>
+                                            Add To Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card card-block">
+                                <div class="card m-2">
+                                    <img src="images/html pic.png" class="card-img-top" alt="...">
+                                    <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                                        <h5 class="hover__BlueEffect card-title">Hypertext Markup Language</h5>
+                                        <p class="hover__BlueEffect card-text"> Page 0 Element 1</p>
+                                        <button type="button" class="btn btn-outline-danger">
+                                            <svg width="1.2em" height="1.2em" viewBox="0 0 16 16"
+                                                class="bi bi-bag-plus mr-1" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                                            </svg>
+                                            Add To Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card card-block">
+                                <div class="card m-2">
+                                    <img src="images/html pic.png" class="card-img-top" alt="...">
+                                    <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                                        <h5 class="hover__BlueEffect card-title">Hypertext Markup Language</h5>
+                                        <p class="hover__BlueEffect card-text"> Page 0 Element 2</p>
+                                        <button type="button" class="btn btn-outline-danger">
+                                            <svg width="1.2em" height="1.2em" viewBox="0 0 16 16"
+                                                class="bi bi-bag-plus mr-1" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                                            </svg>
+                                            Add To Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card card-block">
+                                <div class="card m-2">
+                                    <img src="images/html pic.png" class="card-img-top" alt="...">
+                                    <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                                        <h5 class="hover__BlueEffect card-title ">Hypertext Markup Language</h5>
+                                        <p class="hover__BlueEffect card-text"> Page 0 Element 3</p>
+                                        <button type="button" class="btn btn-outline-danger">
+                                            <svg width="1.2em" height="1.2em" viewBox="0 0 16 16"
+                                                class="bi bi-bag-plus mr-1" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                                            </svg>
+                                            Add To Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div style="padding-top:12px !important;" class="carousel-item p-5">
+
+                    <div class="row flex-nowrap overflow-auto">
+
+                        <div class="col-3">
+                            <div class="card card-block">
+                                <div class="card m-2">
+                                    <img src="images/css pic.png" class="card-img-top" alt="...">
+                                    <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                                        <h5 class="hover__BlueEffect card-title">Cascading Style Sheet</h5>
+                                        <p class="hover__BlueEffect card-text"> Page 1 Element 0</p>
+                                        <button type="button" class="btn btn-outline-warning">
+                                            <svg width="1.2em" height="1.2em" viewBox="0 0 16 16"
+                                                class="bi bi-bag-plus mr-1" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                                            </svg>
+                                            Add To Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card card-block">
+                                <div class="card m-2">
+                                    <img src="images/css pic.png" class="card-img-top" alt="...">
+                                    <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                                        <h5 class="hover__BlueEffect card-title">Cascading Style Sheet</h5>
+                                        <p class="hover__BlueEffect card-text"> Page 1 Element 1</p>
+                                        <button type="button" class="btn btn-outline-warning">
+                                            <svg width="1.2em" height="1.2em" viewBox="0 0 16 16"
+                                                class="bi bi-bag-plus mr-1" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                                            </svg>
+                                            Add To Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card card-block">
+                                <div class="card m-2">
+                                    <img src="images/css pic.png" class="card-img-top" alt="...">
+                                    <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                                        <h5 class="hover__BlueEffect card-title">Cascading Style Sheet</h5>
+                                        <p class="hover__BlueEffect card-text"> Page 1 Element 2</p>
+                                        <button type="button" class="btn btn-outline-warning">
+                                            <svg width="1.2em" height="1.2em" viewBox="0 0 16 16"
+                                                class="bi bi-bag-plus mr-1" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                                            </svg>
+                                            Add To Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card card-block">
+                                <div class="card m-2">
+                                    <img src="images/css pic.png" class="card-img-top" alt="...">
+                                    <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                                        <h5 class="hover__BlueEffect card-title">Cascading Style Sheet</h5>
+                                        <p class="hover__BlueEffect card-text"> Page 1 Element 3</p>
+                                        <button type="button" class="btn btn-outline-warning">
+                                            <svg width="1.2em" height="1.2em" viewBox="0 0 16 16"
+                                                class="bi bi-bag-plus mr-1" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                                            </svg>
+                                            Add To Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div style="padding-top:12px !important;" class="carousel-item p-5">
+
+                    <div class="row flex-nowrap overflow-auto">
+
+                        <div class="col-3">
+                            <div class="card card-block">
+                                <div class="card m-2">
+                                    <img src="images/javascript pic.png" class="card-img-top" alt="...">
+                                    <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                                        <h5 class="hover__BlueEffect card-title">JavaScript</h5>
+                                        <p class="hover__BlueEffect card-text"> Page 2 Element 0</p>
+                                        <button type="button" class="btn btn-outline-warning">
+                                            <svg width="1.2em" height="1.2em" viewBox="0 0 16 16"
+                                                class="bi bi-bag-plus mr-1" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                                            </svg>
+                                            Add To Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card card-block">
+                                <div class="card m-2">
+                                    <img src="images/javascript pic.png" class="card-img-top" alt="...">
+                                    <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                                        <h5 class="hover__BlueEffect card-title">JavaScript</h5>
+                                        <p class="hover__BlueEffect card-text"> Page 2 Element 1</p>
+                                        <button type="button" class="btn btn-outline-warning">
+                                            <svg width="1.2em" height="1.2em" viewBox="0 0 16 16"
+                                                class="bi bi-bag-plus mr-1" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                                            </svg>
+                                            Add To Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card card-block">
+                                <div class="card m-2">
+                                    <img src="images/javascript pic.png" class="card-img-top" alt="...">
+                                    <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                                        <h5 class="hover__BlueEffect card-title">JavaScript</h5>
+                                        <p class="hover__BlueEffect card-text"> Page 2 Element 2</p>
+                                        <button type="button" class="btn btn-outline-warning">
+                                            <svg width="1.2em" height="1.2em" viewBox="0 0 16 16"
+                                                class="bi bi-bag-plus mr-1" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                                            </svg>
+                                            Add To Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="card card-block">
+                                <div class="card m-2">
+                                    <img src="images/javascript pic.png" class="card-img-top" alt="...">
+                                    <div class="card-body d-flex justify-content-center flex-column align-items-center">
+                                        <h5 class="hover__BlueEffect card-title">JavaScript</h5>
+                                        <p class="hover__BlueEffect card-text"> Page 2 Element 3</p>
+                                        <button type="button" class="btn btn-outline-warning">
+                                            <svg width="1.2em" height="1.2em" viewBox="0 0 16 16"
+                                                class="bi bi-bag-plus mr-1" fill="currentColor"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path fill-rule="evenodd"
+                                                    d="M8 1a2.5 2.5 0 0 0-2.5 2.5V4h5v-.5A2.5 2.5 0 0 0 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5v9a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V5H2z" />
+                                                <path fill-rule="evenodd"
+                                                    d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z" />
+                                            </svg>
+                                            Add To Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <section id="Footers">
+        <!-- Footer -->
+        <footer class="page-footer font-small indigo">
+            <!-- Footer Links -->
+            <div style="margin: 0;" class="container text-center text-md-left">
+                <!-- Grid row -->
+                <div style="width: 97vw;" class="row">
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+                        <!-- Links -->
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Categories</h5>
+                        <ul class="list-unstyled">
+                            <li><a class="hover__BlueEffect" href="#!">Over Head Shower</a></li>
+                            <li><a class="hover__BlueEffect" href="#!">Faucet Collection</a></li>
+                            <li><a class="hover__BlueEffect" href="#!">Hand Shower</a></li>
+                            <li><a class="hover__BlueEffect" href="#!">Body Jet Shower</a></li>
+                            <li><a class="hover__BlueEffect" href="#!">Health Fauset</a></li>
+                            <li><a class="hover__BlueEffect" href="#!">Bathroom Accessories</a></li>
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
+                    <hr class="clearfix w-100 d-md-none">
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+                        <!-- Links -->
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">My Account</h5>
+                        <ul class="list-unstyled">
+                            <li><a class="hover__BlueEffect" href="">Sign In</a></li>
+                            <li><a class="hover__BlueEffect" href="">Register</a></li>
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
+                    <hr class="clearfix w-100 d-md-none">
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto">
+                        <!-- Links -->
+                        <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contacts</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <p>Address: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt veritatis
+                                    unde deserunt tempore fugit consectetur blanditiis commodi numquam atque explicabo.
+                                </p>
+                            </li>
+                            <li>Phone: 987 654 3210</li>
+                            <li>Hours: Mon - Sat (10am to 6pm)</li>
+                            <li>E-mail:<a style="color: #FFC732;" href="">demo@gmail.com</a> </li>
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
+                    <hr class="clearfix w-100 d-md-none">
+                    <!-- Grid column -->
+                    <div class="col-md-3 mx-auto ">
+                        <!-- Links -->
+                        <h5 style="letter-spacing: 2px;" class="font-weight-bold text-uppercase mt-3 mb-4">DOWNLOAD OUR
+                            APP</h5>
+                        <ul class="list-unstyled">
+                            <li><img src="images/download from.png" alt=""></li>
+                        </ul>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+            <!-- Footer Links -->
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2020 Copyright:
+                <a href="">Made By Pratyush Tripathy</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </section>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        window.addEventListener('scroll', () => {
+            let imgInHead = document.getElementById('logoImgHeader');
+            imgInHead.classList.toggle('d-none', window.scrollY > 100);
+            let topNavBar = document.getElementById('topNavBar');
+            topNavBar.classList.toggle('stickyUp', window.scrollY > 100);
+        })
+
+    </script>
+</body>
+
+</html>
